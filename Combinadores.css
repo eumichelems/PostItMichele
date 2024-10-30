@@ -1,0 +1,27 @@
+li {
+    color: brown;
+}
+/* nth = enésimo elemento */
+/* nth = pseudo classe */
+li:nth-child(2n+1) {
+    background-color: aquamarine;
+    margin: 1px;
+}
+
+/* :: = pseudo elemento */
+ol li::before {
+    content: "🌽";
+}
+
+ul {
+    list-style-type: upper-roman;
+}
+
+div p {
+    background-color: coral;
+}
+
+p::first-letter {
+    font-size: larger;
+    text-transform: lowercase;
+}

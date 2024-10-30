@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post It Pessoal</title>
+    <link rel="stylesheet" href="postit.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aboreto&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container">
+        <h1>💡Lembretes da Mi💡</h1>
+        <div class="aviso">📌Exercícios de Front para 25/09!"
+            <button onclick="concluirLembrete(this)">Concluir</button>
+            <button onclick="excluirLembrete(this)">Excluir</button>
+            <button onclick="renomearLembrete(this)">Renomear</button>
+        </div>
+        <div class="aviso" role="alert">📌Aula de Inglês 5ª às 13hrs"
+            <button onclick="concluirLembrete(this)">Concluir</button>
+            <button onclick="excluirLembrete(this)">Excluir</button>
+            <button onclick="renomearLembrete(this)">Renomear</button>
+        </div>
+        <div class="aviso" role="alert">📌Terapia seg e ter 10:15hrs"
+            <button onclick="concluirLembrete(this)">Concluir</button>
+            <button onclick="excluirLembrete(this)">Excluir</button>
+            <button onclick="renomearLembrete(this)">Renomear</button>
+        </div>
+        <div class="aviso" role="alert">📌Aulas de Java 05/09"
+            <button onclick="concluirLembrete(this)">Concluir</button>
+            <button onclick="excluirLembrete(this)">Excluir</button>
+            <button onclick="renomearLembrete(this)">Renomear</button>
+        </div>
+        <div class="aviso" role="alert">📌Revisão de Front sempre às 15:00"
+            <button onclick="concluirLembrete(this)">Concluir</button>
+            <button onclick="excluirLembrete(this)">Excluir</button>
+            <button onclick="renomearLembrete(this)">Renomear</button>
+        </div>
+        <div class="aviso melhor" role="alert">📌Encontro Friburgo estar 5:00 no Quissamã!!!"
+            <button onclick="concluirLembrete(this)">Concluir</button>
+            <button onclick="excluirLembrete(this)">Excluir</button>
+            <button onclick="renomearLembrete(this)">Renomear</button>
+        </div>
+    </div>
+
+    <button id="adicionar" onclick="adicionarLembrentes()">Adicionar novo lembrete</button>
+    <script src="postit.js"></script>
+
+</body>
+</html>

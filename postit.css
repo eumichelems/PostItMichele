@@ -1,0 +1,95 @@
+/* Defini a fonte, cor de fundo e um espaço em volta */
+body {
+    font-family: "Aboreto", sans-serif, 'Comic Sans Ms';
+    color: #322219;
+    background-color: #26241e;
+    margin: 0;
+    padding: 10px;
+    background-image: url(https://img.freepik.com/vetores-gratis/ouro-fundo-desfocado_1034-248.jpg?w=740&t=st=1727298415~exp=1727299015~hmac=205e8f732804f6f0d32d62554247d7a9795f6564dc44dca5654357194d85137b);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h1 {
+    display: block;
+    width: 100%;
+    text-shadow: 2px 2px 3px #76532b;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 58px;
+}
+
+/* Flex para organizar os itens em colunas e centralizar */
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.aviso {
+    background-color: #f2e6d8;
+    color: #615f6d;
+    margin: 10px;
+    border: 20px;
+    padding: 15px;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.melhor {
+    background-color: #322219;
+    color: #f2e6d8;
+    margin: 10px;
+    border: 20px;
+    padding: 15px;
+    font-size: 16px;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    width: center;
+    box-sizing: border-box;
+}
+
+.aviso button {
+    margin: 5px;
+    padding: 5px 5px;
+    font-size: 12px;
+}
+
+.melhor button {
+    width: 90%;
+    padding: 5px 5px;
+    font-size: 12px;
+}
+
+.concluido {
+    background-color: lightgray;
+    text-decoration: line-through;
+}
+
+.roxo {
+    background-color: rgb(172, 205, 174);
+}
+
+.azul {
+    background-color: rgb(251, 175, 76);
+}
